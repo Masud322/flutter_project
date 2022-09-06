@@ -1,5 +1,17 @@
+import 'dart:async';
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_project/Page_1.dart';
+import 'package:flutter_project/Page_2.dart';
+import 'package:flutter_project/Page_3.dart';
+import 'package:flutter_project/Page_4.dart';
+import 'package:flutter_project/Page_5.dart';
+import 'package:flutter_project/Page_6.dart';
+import 'package:flutter_project/Page_7.dart';
+import 'package:flutter_project/Page_8.dart';
+import 'package:flutter_project/Page_9.dart';
+import 'package:flutter_project/Page_10.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,24 +60,24 @@ class MyHomePage extends StatelessWidget {
               automaticallyImplyLeading: false,
             ),
             const ListTile(
-              leading: Icon(Icons.list),
-              title: Text('Page_1'),
+              leading: Icon(Icons.settings),
+              title: Text('Settings'),
             ),
             const ListTile(
-              leading: Icon(Icons.list),
-              title: Text('Page_2'),
+              leading: Icon(Icons.developer_board),
+              title: Text('Developer Board'),
             ),
             const ListTile(
-              leading: Icon(Icons.list),
-              title: Text('Page_3'),
+              leading: Icon(Icons.dark_mode),
+              title: Text('Dark Mode'),
             ),
             const ListTile(
-              leading: Icon(Icons.list),
-              title: Text('Page_4'),
+              leading: Icon(Icons.email),
+              title: Text('E-mail'),
             ),
             const ListTile(
-              leading: Icon(Icons.list),
-              title: Text('Page_5'),
+              leading: Icon(Icons.report),
+              title: Text('Report'),
             ),
             const ListTile(
               leading: Icon(Icons.add),
@@ -76,33 +88,162 @@ class MyHomePage extends StatelessWidget {
         body: ListView(
           padding: const EdgeInsets.all(8),
           children: <Widget>[
+            Text(
+              'All Pages',
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              
+            ),
+
+           
             Container(
-              height: 50,
-              color: Colors.amber[600],
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Colors.red,
               child: TextButton(
-              onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Page_1()));
-              },
-              child: const Text('Button'),
-            ),
-            ),
-            Container(
-              height: 50,
-              color: Colors.amber[500],
-              child: const Center(child: Text('Page_1')),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_1()));
+                },
+                child: const Text(
+                  'Page_1',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
             ),
             Container(
-              height: 50,
-              color: Colors.amber[100],
-              child: const Center(child: Text('Entry C')),
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Color.fromARGB(255, 0, 248, 4),
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_2()));
+                },
+                child: const Text(
+                  'Page_2',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
             ),
-            TextButton(
-              onPressed: () {
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => Page_1()));
-              },
-              child: const Text('Button'),
+            Container(
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Colors.yellow,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_3()));
+                },
+                child: const Text(
+                  'Page_3',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Colors.amber,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_4()));
+                },
+                child: const Text(
+                  'Page_4',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Colors.blueGrey,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_5()));
+                },
+                child: const Text(
+                  'Page_5',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Colors.amber,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_6()));
+                },
+                child: const Text(
+                  'Page_6',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Colors.green,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_7()));
+                },
+                child: const Text(
+                  'Page_7',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Colors.redAccent,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_8()));
+                },
+                child: const Text(
+                  'Page_8',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Colors.yellowAccent,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_9()));
+                },
+                child: const Text(
+                  'Page_9',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.all(2),
+              height: 70,
+              color: Colors.brown,
+              child: TextButton(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Page_10()));
+                },
+                child: const Text(
+                  'Page_10',
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
             ),
           ],
         ));

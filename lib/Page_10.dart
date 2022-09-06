@@ -2,8 +2,8 @@
 // ignore_for_file: camel_case_types
 
 import 'package:flutter/material.dart';
-class Page_1 extends StatelessWidget {
-  const Page_1({Key? key}) : super(key: key);
+class Page_10 extends StatelessWidget {
+  const Page_10({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,8 +17,8 @@ class Page_1 extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(8),
             height: 45,
-            color: Colors.green, 
-           child: Text('WELCOME PAGE 1',style: TextStyle(color: Colors.black),),
+            color: Color.fromARGB(255, 243, 2, 26), 
+           child: Text('WELCOME PAGE 10',style: TextStyle(color: Colors.black),),
       )
         
       )
