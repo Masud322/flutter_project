@@ -105,8 +105,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_1()));
                 },
                 child: const Text(
-                  'Page_1',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 1',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -120,8 +120,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_2()));
                 },
                 child: const Text(
-                  'Page_2',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 2',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -135,8 +135,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_3()));
                 },
                 child: const Text(
-                  'Page_3',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 3',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -150,8 +150,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_4()));
                 },
                 child: const Text(
-                  'Page_4',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 4',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -165,8 +165,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_5()));
                 },
                 child: const Text(
-                  'Page_5',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 5',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -180,8 +180,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_6()));
                 },
                 child: const Text(
-                  'Page_6',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 6',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -195,8 +195,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_7()));
                 },
                 child: const Text(
-                  'Page_7',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 7',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -210,8 +210,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_8()));
                 },
                 child: const Text(
-                  'Page_8',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 8',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -225,8 +225,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_9()));
                 },
                 child: const Text(
-                  'Page_9',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 9',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
@@ -240,8 +240,8 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_10()));
                 },
                 child: const Text(
-                  'Page_10',
-                  style: TextStyle(color: Colors.black),
+                  'List View -> 10',
+                  style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
             ),
