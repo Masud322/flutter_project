@@ -12,16 +12,19 @@ class Page_1 extends StatelessWidget {
         title: (Text('Home')),
       ),
       body:
-      Center(
+      ListView.builder(
         
-        child: Container(
-          padding: const EdgeInsets.all(8),
-            height: 45,
-            color: Colors.green, 
-           child: Text('WELCOME PAGE 1',style: TextStyle(color: Colors.black),),
-      )
-        
-      )
+          itemCount: 5,
+          itemBuilder: (BuildContext context, int index) {
+            return ListTile(
+            
+                leading: const Icon(Icons.image_outlined),
+                trailing: const Text(
+                  "FLV",
+                  style: TextStyle(color: Colors.green, fontSize: 15),
+                ),
+                title: Text("Your Full Name $index"));
+          }),
     );
   }
 }

@@ -9,16 +9,33 @@ class Page_2 extends StatelessWidget {
         title: (Text('Home')),
       ),
       body: 
-      Center(
-        
-        child: Container(
-          padding: const EdgeInsets.all(8),
-            height: 45,
-            color: Colors.yellowAccent, 
-           child: Text('WELCOME PAGE 2',style: TextStyle(color: Colors.black),),
-      )
-        
-      )
+      ListView(
+  children: ListTile.divideTiles( //          <-- ListTile.divideTiles
+      context: context,
+      tiles: [
+        ListTile(
+          leading: Icon(Icons.image_outlined),
+          title: Text('Empty 1'),
+        ),
+        ListTile(
+          leading: Icon(Icons.image_outlined),
+          title: Text('Empty 2'),
+        ),
+        ListTile(
+          leading: Icon(Icons.image_outlined),
+          title: Text('Empty 3'),
+        ),
+        ListTile(
+          leading: Icon(Icons.image_outlined),
+          title: Text('Empty 4'),
+        ),
+        ListTile(
+          leading: Icon(Icons.image_outlined),
+          title: Text('Empty 5'),
+        ),
+      ]
+  ).toList(),
+)
     );
   }
 }
