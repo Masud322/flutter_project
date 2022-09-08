@@ -31,13 +31,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         
-      actions: [
-            IconButton(
-              alignment: Alignment.topLeft,
-              onPressed: () {},
-              icon: const Icon(Icons.arrow_back),
-            )
-          ],
+      
           title: const Text('Counter App'),
 
       ),
