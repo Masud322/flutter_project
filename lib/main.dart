@@ -135,7 +135,7 @@ class MyHomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Page_3()));
                 },
                 child: const Text(
-                  'List View -> 3',
+                  'Counter App',
                   style: TextStyle(color: Colors.black, fontSize: 17,fontWeight: FontWeight.bold),
                 ),
               ),
